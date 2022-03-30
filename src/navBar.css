@@ -1,0 +1,133 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
+nav{
+    height: 100%;
+    width: 100%;
+    /* border-style: solid;
+    border-color: aqua; */
+    font-size:larger;
+    /* background-color: gray; */
+
+}
+
+#navButton{
+    text-align: center;
+    /* width:15%; */
+    position: relative;
+    /* padding: 0; */
+    /* border-style: solid; */
+    /* border-color: green; */
+    /* display: inline-block; */
+    /* background-color: green; */
+    /* border-style: solid; */
+    /* border-color: black; */
+    float: right;
+    white-space: nowrap;
+    font-size: large;
+    margin-left: min(40px);
+    font-family:'Lato',sans-serif ;
+    color: #f1f1f1;
+    margin-top: 1%;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    margin-right: 3%;
+    
+    
+}
+
+
+
+
+#navButton:hover{
+    animation-duration: 1s;
+    animation-name: borderRadius;
+    animation-fill-mode: forwards; 
+    border-style: solid;
+    border-color: #f1f1f1;
+    
+}
+
+@keyframes borderRadius {
+    from{
+        border-radius:0% ;
+    }
+
+    to{
+        border-radius: 20%;
+        border-color: blueviolet;
+    }
+    
+}
+
+#navButton:hover #navDropDown{
+    
+    display: block;
+
+}
+
+/* #navDropDown{
+    position: relative;
+  display: inline-block;
+
+} */
+
+#navDropDown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  #FK{
+    
+    /* text-align:center; */
+    /* width:15%; */
+    position: relative;
+    padding: 0;
+
+    /* border-style: solid; */
+    /* border-color: green; */
+    /* display: inline-block; */
+    /* background-color: green; */
+    /* border-style: solid; */
+    /* border-color: black; */
+    float: left;
+    white-space: nowrap;
+    font-size: larger;
+    margin-left: min(40px);
+    font-family:'Lato',sans-serif ;
+    color: #f1f1f1;
+    margin-top: 1%;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    margin-left: 0%;
+    
+  }
+
+  #FK:hover{
+    animation-duration: 1s;
+    animation-name: borderRadius;
+    animation-fill-mode: forwards; 
+    border-style: solid;
+    border-color: #f1f1f1;
+    
+}
+
+@keyframes borderRadius {
+    from{
+        border-radius:0% ;
+    }
+
+    to{
+        border-radius: 20%;
+        border-color: blueviolet;
+    }
+    
+}

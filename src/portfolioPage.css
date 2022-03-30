@@ -1,0 +1,148 @@
+
+
+
+#tab1maincontent{
+    overflow-y: hidden;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: black;
+    height: 600px;
+    border-radius: 2%;
+    position: relative;
+    /* background-image: url("./codingBackground2.jpg"); */
+    /* background-size: contain; */
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    z-index: 1
+
+    
+}
+
+#tab1maincontentBackground{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(codingBackground2.jpg);
+    opacity: 0.5;
+}
+
+#tab1content #tab1maincontentBackground{
+    position: relative;
+
+}
+
+#content{
+    color: rgb(61, 61, 61);
+    font-family: 'Merriweather', serif;
+    
+}
+
+
+
+#container {
+    position: relative;
+    /* width: 90%; */
+    margin: auto;
+}
+#container #container-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(background3.jpg);
+    background-size: fill;
+    /* opacity: 0.75; */
+    border-radius: 2%;
+}
+#container #content {
+    overflow-y: hidden;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: black;
+    height: 550px;
+    border-radius: 2%;
+    position: relative;
+    /* background-image: url("./codingBackground2.jpg"); */
+    /* background-size: contain; */
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    z-index: 1;
+    position: relative;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+#airforceLogo{
+    height:200px;
+    width:200px
+}
+
+#title{
+    margin: auto;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+
+#excelSchedulerImg{
+    margin:0px auto;
+    /* text-align: center; */
+    border-radius: 4%;
+    width: 700px;
+    display: block;
+    border: 5px solid;
+
+}
+
+#tabHolder{
+    border-collapse: separate; 
+    border-style: solid;
+    background-color: aliceblue;
+    /* border-radius: 8%; */
+    /* border-color: black; */
+    width: 95%;
+    margin: auto;
+
+}
+
+#setBorderRadius{
+    /* border-collapse: separate;  */
+    /* border-style: solid; */
+    /* background-color: aliceblue; */
+    border-radius: 4%;
+    /* border-color: black; */
+
+}
+
+#paragraph{
+    /* background-color: rgb(54, 54, 54); */
+    border-radius: 4%;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    border-bottom: 5px;
+    border-bottom: 5px solid rgb(54, 54, 54);
+    border-top: 5px solid rgb(49, 49, 49);
+    text-align: center;
+}
+
+#githubLink{
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    margin-left: 10px;
+}
+
+#video{
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+
