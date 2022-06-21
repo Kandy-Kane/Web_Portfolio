@@ -2,7 +2,7 @@ import { render } from '@testing-library/react'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './resumePage.css'
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import { bounce } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import { slideInUp } from 'react-animations';

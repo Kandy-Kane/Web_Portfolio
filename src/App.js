@@ -1,17 +1,16 @@
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import './App.css';
-import NavBar from './navBar.js'
 import {Resume} from './resumePage.js'
 import {TheContent} from './mainContent'
 import React, { useState } from 'react';
-import './navBar.css'
+// import './navBar.css'
 import {PortfolioPage} from './portfolioPage.js'
 
 import { send } from 'emailjs-com';
 // import { Link, animateScroll as scroll } from "react-scroll";
 // import { useState } from 'react';
 import{ init } from '@emailjs/browser';
-import sendArrow from './sendArrow.png'
+import sendArrow from './images/sendArrow.png'
 // import ScrollAnimation from 'react-animate-on-scroll';
 import ScrollAnimation from 'react-animation-on-scroll';
 
@@ -231,7 +230,7 @@ export function SendEmail(){
     
     <div id='formContainer'>
       <form onSubmit={onSubmit}>
-      <div ><h2 id='emailTitle'> If you would like to contact me, please feel free to react out!</h2></div>
+      <div ><h2 id='emailTitle'> If you would like to contact me, please feel free to reach out.</h2></div>
   <input
     type='text'
     name='from_name'

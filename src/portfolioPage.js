@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import './portfolioPage.css'
-import image from './profilepic2.jpg'
+import image from './images/profilepic2.jpg'
 import { bounce } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import { slideInUp } from 'react-animations';
@@ -13,9 +13,9 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import newBook from './newBook.png'
-import airForceLogo from './airforce.png'
-import codingBackground from './codingBackground2.jpg'
+import newBook from './images/newBook.png'
+import airForceLogo from './images/airforce.png'
+import codingBackground from './images/codingBackground2.jpg'
 import video from './schedulerDemo.mp4'
 
 

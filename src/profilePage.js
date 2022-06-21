@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import logo from './logo.svg';
+import logo from './images/logo.svg';
 import './profilePage.css'
-import image from './profilepic2.jpg'
+import image from './images/profilepic2.jpg'
 import { bounce } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import { slideInUp } from 'react-animations';
