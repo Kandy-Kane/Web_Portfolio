@@ -38,6 +38,44 @@ nav{
 }
 
 
+#socialMediaTable{
+  
+  border-spacing: 50px 0;
+  
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+
+#socialMediaPic{
+
+  margin: 25px;
+
+    
+}
+
+
+#socialMediaPic:hover{
+
+  /* transform: scale(1.1); */
+  animation-duration: 1s;
+    animation-name: socialMediaHover;
+    animation-fill-mode: forwards; 
+
+    
+}
+@keyframes socialMediaHover {
+  from{
+      
+  }
+
+  to{
+      transform: scale(1.1);
+  }
+  
+}
+
+
 
 
 #navButton:hover{
@@ -166,6 +204,8 @@ body{
   overflow-x: hidden;
 }
 
+
+
 /* this makes everything 100% height */
  #root > div {
    
@@ -174,7 +214,7 @@ body{
   max-width: 100%;
   
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* overflow-y: scroll; */
 }
 
@@ -451,7 +491,7 @@ span:nth-child(2){
 }
 
 #sendButton{
-  background-color: rgb(233, 151, 0) ;
+  background-color: rgb(233, 0, 202) ;
   /* margin: auto; */
   /* margin-bottom: 15px; */
   transition: all 1s ease;
@@ -464,3 +504,81 @@ span:nth-child(2){
 #sendButton:hover{
   background-color: rgb(0, 120, 233) ;
 } 
+
+
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+#popupAn{
+  
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-color: red;
+  
+}
+
+#popupAn:hover{
+  visibility: visible;
+  animation: anvil 2s;
+}
+
+/* animation */
+
+@keyframes anvil {
+  0% {
+    visibility: visible;
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+    box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+  }
+}
+.popup-content {
+  -webkit-animation: anvil 0.3s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}

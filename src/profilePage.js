@@ -8,6 +8,8 @@ import { bounce } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import { slideInUp } from 'react-animations';
 import { fadeInUp } from 'react-animations';
+import Appfunctions from './App'
+
 
 
 const styles = {
@@ -26,10 +28,18 @@ const styles = {
 
   }
 }
+
+// function scrollToBottom() {
+//   document.getElementById("content3Container").scroll(0,0)
+//   console.log("Contact Me")
+// }
  
 
-export class ProfilePage extends React.Component{
-    render(){
+export function ProfilePage (){
+
+
+ 
+  
         return <StyleRoot>
             <div id='txt' >
               
@@ -38,7 +48,7 @@ export class ProfilePage extends React.Component{
             <h1 id = 'name' >Frank Kane</h1>
             <h2>Software Developer</h2>
             <h4>I am a professional software developer for web, mobile, integrated, and more!</h4>
-            <button>Contact Me</button>
+            {/* <button onClick={scrollToDiv}>Contact Me</button> */}
 
                 
 
@@ -61,4 +71,3 @@ export class ProfilePage extends React.Component{
         </StyleRoot>
          
     }
-}

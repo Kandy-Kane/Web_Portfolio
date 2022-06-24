@@ -80,7 +80,24 @@
 }
 #airforceLogo{
     height:200px;
-    width:200px
+    width:200px;
+    border-radius: 10px;
+}
+
+#manhattanCollegeLogo{
+    height:200px;
+    width:400px;
+    border-radius: 10px;
+}
+
+#momaLogo{
+    height:200px;
+    width:400px;
+    border-radius: 10px;
+}
+
+#projectJojoLogo{
+    border-radius: 10px;
 }
 
 #title{
